@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ColorCell" id="LXg-Hi-rvm">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ColorCell" id="LXg-Hi-rvm">
                                         <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LXg-Hi-rvm" id="Kt9-wh-461">
@@ -64,7 +64,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Colors" id="1JW-tk-Rud"/>
                     <connections>
-                        <segue destination="O0Z-u7-fgQ" kind="show" identifier="ToColorsDetailVC" id="vEn-a8-MjA"/>
+                        <segue destination="O0Z-u7-fgQ" kind="presentation" identifier="ToColorsDetailVC" id="vEn-a8-MjA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="reV-Th-QEv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -76,7 +76,7 @@
             <objects>
                 <viewController id="O0Z-u7-fgQ" customClass="ColorsDetailVC" customModule="RandomColor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VKN-3Q-Uuq">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="pDK-Ps-oWh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
